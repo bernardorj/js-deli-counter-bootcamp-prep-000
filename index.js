@@ -1,5 +1,5 @@
 function takeANumber(katzDeliLine, name){
-    let positionInLine = katzDeliLine.length + 1; //first instance the length = 0
+    let positionInLine = katzDeliLine.length + 1; //position is equal to the old length + 1 more person
 
     katzDeliLine = katzDeliLine.push(name);
 
